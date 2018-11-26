@@ -5,7 +5,7 @@ module.exports = (app) => {
     app.post('/books/:cwid', books.create);
 
     // Retrieve all players
-    app.get('/books', books.findAll);
+    app.get('/books/allbooks', books.findAll);
 	
 	// Retrieve all books with cwid
     app.get('/books/:cwid', books.findAllWith);
