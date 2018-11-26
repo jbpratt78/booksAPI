@@ -1,0 +1,30 @@
+{
+  "name": "booksApi",
+  "version": "0.0.0",
+  "description": "RESTful booksApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "Error: no test specified",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Caspear1/booksAPI.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Conrad Spear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caspear1/booksAPI/issues"
+  },
+  "devDependencies": {
+    "nodemon": "~1.18.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "~4.16.4",
+    "mongoose": "^5.3.12"
+  }
+}
